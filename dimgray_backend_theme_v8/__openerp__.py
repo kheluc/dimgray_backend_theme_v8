@@ -10,7 +10,7 @@
     # Your information
     'author': 'RAZAFIMIANDRISOA Noarison Léonce',
     'website': 'kheluc@yahoo.com',
-    'license': 'AGPL-3',
+    'license': 'OPL-1',
     'summary': 'Dimgray Backend Theme V8',
     'images': [
         'images/screen.png'

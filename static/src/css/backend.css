@@ -1,0 +1,379 @@
+/*
+# -*- encoding: utf-8 -*-
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* PRIMARY COLOR: #875A7B*/
+/* SOCONDARY COLOR: #593e52*/
+/* BUTTON COLOR: #3a9630*/
+/* BUTTON COLOR HOVER: #6fc765*/
+
+
+.openerp .oe_form_sheet_width {
+    max-width: 95%;
+}
+
+.openerp .oe_leftbar {
+    background-color: #fff;
+    border-right: 1px solid #D1D1D1;
+}
+
+#oe_main_menu_navbar .oe_systray #oe_topbar_imbutton_icon,
+#oe_main_menu_navbar .oe_systray #oe_attendance_sign_in_out_icon {
+    color: white;
+}
+
+.openerp .oe_form header,
+.openerp .oe_view_manager_current > .oe_view_manager_header {
+    border-bottom: 1px solid #D1D1D1;
+    background: #d4dae1;
+    box-shadow: none;
+}
+
+.openerp .oe_horizontal_separator,
+.openerp .oe_button.oe_link span,
+.openerp .oe_application a,
+.openerp .ui-widget-content a,
+.openerp .oe_view_manager table.oe_view_manager_header h2 a,
+.openerp .oe_secondary_menu_section {
+    color: #1D559D;
+}
+
+.openerp .nav-pills > li.active > a,
+.openerp a.list-group-item.active > a {
+    background-color: #1D559D;
+}
+
+.openerp .nav-pills > li.active a:hover,
+.openerp .nav-pills > li.active a:focus,
+.openerp a.list-group-item.active a:hover,
+.openerp a.list-group-item.active a:focus {
+    background-color: #446b9d;
+}
+
+.navbar-inverse {
+    background-color: #1D559D;
+    border-color: #D1D1D1;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #D1D1D1;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    line-height: 21px !important;
+}
+
+
+
+.openerp .nav-pills li > a{
+    color: black;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+#######################################################
+
+#oe_main_menu_navbar.navbar {
+    background-color: #875A7B !important;
+    border-color:#875A7B !important;
+    color: #ffffff !important;
+}
+
+#oe_main_menu_navbar .navbar-header {
+    margin-right: 15px !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    padding: 0px !important;
+    background-color: #875A7B !important;
+    border-color: #875A7B !important;
+}
+
+#fa_fa_th_menu {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+#oe_main_menu_navbar li a.oe_menu_toggler {
+    color: #ffff !important;
+}
+
+
+
+.openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+    background-color: transparent !important;
+}
+
+.openerp .oe_loading {
+    display: none;
+    z-index: 1001;
+    position: fixed;
+    top: 97% !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    padding: 4px 12px;
+    background: #875A7B;
+    border-color:#875A7B !important;
+    color: white;
+    text-align: center;
+    border: 1px solid #6d315d;
+    border-top: none;
+    -moz-border-radius-bottomright: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.openerp .oe_leftbar > div {
+    background-color: #593e52 !important;
+}
+
+.openerp .nav-pills li > a {
+    padding: 15px !important;
+    border-radius: 0px;
+    color: #fff;
+}
+
+.openerp .nav-pills li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    background: linear-gradient(to right,#875A7B 50%, #593e52 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.2s ease-out;
+}
+
+.openerp .nav-pills li:hover {
+    background-position: left bottom;
+}
+
+.openerp .nav-pills li > a, .openerp .nav-pills > li.active > a, .openerp a.list-group-item.active > a {
+    background-color: transparent !important;
+    display: block;
+    position: relative;
+    margin: 0;
+    width: 220px;
+    border: 0px;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FFFFFF;
+    transition: all 0.2s ease-out;
+}
+
+.openerp .oe_secondary_menu_section {
+    color: #ffffff !important;
+    margin-left: 0px !important;
+    padding-left: 8px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    text-transform: uppercase !important;
+    background-color: #875A7B !important;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-color: transparent !important;
+}
+
+.navbar-inverse {
+    background-color: #875A7B !important;
+    border-color: #875A7B !important;
+}
+
+.oe_module_desc button {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.openerp .oe_kanban_view .oe_kanban_action_button {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto !important;
+    background-color:#3a9630 !important;
+    border-color:#3a9630 !important;
+}
+
+.openerp .oe_kanban_view .oe_kanban_action_button:hover {
+    background-color:#6fc765 !important;
+    border-color:#6fc765 !important;
+}
+
+.openerp button.oe_button, button.oe_dropdown_toggle, .openerp button.oe_highlight {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color:#3a9630 !important;
+    border-color:#3a9630 !important;
+}
+
+.openerp button.oe_button:hover, button.oe_dropdown_toggle:hover, .openerp button.oe_highlight:hover {
+    background-color:#6fc765 !important;
+    border-color:#6fc765 !important;
+}
+
+.openerp button.oe_dropdown_toggle, .openerp button.oe_highlight {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color:#3a9630 !important;
+    border-color:#3a9630 !important;
+}
+
+.openerp button.oe_dropdown_toggle:hover, .openerp button.oe_highlight:hover {
+    background-color:#6fc765 !important;
+    border-color:#6fc765 !important;
+}
+
+@media (max-width: 768px) {
+    #leftbar_toggle {
+        display: none !important;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        text-align: center !important;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #leftbar_toggle {
+        display: none !important;
+    }
+
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        text-align: center !important;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        text-align: center !important;
+    }
+}
+
+.navbar-left > li {
+
+}
+
+#oe_main_menu_navbar li a, #oe_main_menu_navbar li button {
+    padding: 13px !important;
+}
+
+.navbar-nav > li:hover {
+    background: #593e52 !important;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #593e52 !important;
+}
+
+#oe_main_menu_navbar li a, #oe_main_menu_navbar li button {
+    margin-top: 0px !important;
+}
+
+#oe_main_menu_navbar #menu_more li a.oe_menu_toggler {
+    color: black !important;
+}
+
+.openerp .oe_sidebar_suggestion .oe_suggest_items .oe_suggested_item_content button, .openerp .oe_followers button.oe_follower {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color:#3a9630 !important;
+    border-color:#3a9630 !important;
+}
+
+.openerp .oe_sidebar_suggestion .oe_suggest_items .oe_suggested_item_content button:hover, .openerp .oe_followers button.oe_follower:hover {
+    background-color:#6fc765 !important;
+    border-color:#6fc765 !important;
+}
+
+.openerp .oe_form input[type="text"], .openerp .oe_form input[type="password"], .openerp .oe_form input[type="file"], .openerp .oe_form select, .openerp .oe_form textarea {
+    min-height: 30px !important;
+}
+
+body.oe_single_form .oe_single_form_container {
+    background-color: #875A7B !important;
+    color: white !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #875A7B;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #875A7B;
+}
+
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #ffffff;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 4px;
+}
+
+
+
+
+
+
+
+
